@@ -1,0 +1,131 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fefefe;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #d6eaff, #f8e1f4);
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #6c63ff;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+  background-color: #574b90;
+}
+
+/* Section Titles */
+section h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 50px 0 20px;
+  color: #4e4e4e;
+}
+
+/* About Section */
+.about {
+  padding: 20px 40px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Skills Section */
+.skills ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+
+.skills li {
+  background-color: #e4f1fe;
+  color: #333;
+  padding: 10px 15px;
+  margin: 8px;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  transition: transform 0.2s ease;
+}
+
+.skills li:hover {
+  transform: scale(1.05);
+}
+
+/* Projects Section */
+.projects {
+  padding: 20px 40px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.project {
+  background-color: #fafafa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+.project a {
+  color: #6c63ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #d6eaff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contact a {
+  color: #333;
+  text-decoration: underline;
+}
+
+.contact a:hover {
+  color: #6c63ff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .skills ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
