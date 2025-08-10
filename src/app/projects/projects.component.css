@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+:root{
+  --card-radius: 30px;
+}
+
+/* make sure grid children stretch to same height */
+.content { align-items: stretch; }
+
+/* image wrapper inside card */
+.project-image-wrapper {
+  width: 100%;
+  max-height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #f8fafc;
+}
+
+/* the actual image */
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* crop but keep aspect ratio */
+  display: block;
+}
+
+/* small circular action buttons */
+.action-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  background: rgba(229,231,235,0.8);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.action-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 14px rgba(0,0,0,0.08); }
+
+/* tooltip (existing) */
+.tooltip { pointer-events:none; }
+
+/* tags */
+.tag {
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+  border-radius: 999px;
+  display:inline-block;
+}
+.tag.demo { background:#bfdbfe; color:#1e40af; }
+.tag.personal { background:#fed7aa; color:#c2410c; }
+.tag.open { background:#bbf7d0; color:#166534; }
+.tag.closed { background:#fecaca; color:#991b1b; }
+
+/* responsive tweaks */
+@media (min-width: 768px) {
+  .project-image-wrapper { max-height: 220px; }
+}
+
+/* dark support (optional if you have dark styles) */
+.dark .action-btn { background: rgba(55,65,81,0.7); }

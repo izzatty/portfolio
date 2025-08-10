@@ -1,66 +1,10 @@
-<!-- app.component.html -->
-
-<h1>{{ title }}</h1>
-<p>Welcome to my portfolio built with Angular!</p>
-
-<!-- 🌟 Hero Section -->
-<section class="hero">
-  <h1>Hi, I'm Izzatty Suaidi</h1>
-  <p>Computer Science student interested in AI and Cybersecurity</p>
-  <a href="#projects" class="cta">See My Work</a>
-</section>
-
-<!-- 👩‍💻 About Me Section -->
-<section id="about">
-  <h2>About Me</h2>
-  <p>
-    I am a final year Computer Science student at UiTM Shah Alam (Netcentric Computing).
-    I enjoy building projects that merge Artificial Intelligence with practical use cases,
-    especially in cybersecurity.
-  </p>
-</section>
-
-<!-- 🛠️ Skills Section -->
-<section id="skills">
-  <h2>Skills</h2>
-  <ul>
-    <li>Java</li><li>JavaScript</li><li>HTML</li><li>CSS</li>
-    <li>C++</li><li>Python</li><li>TensorFlow</li><li>Pandas</li>
-    <li>Scikit-Learn</li><li>PyTorch</li><li>Keras</li><li>NumPy</li>
-    <li>SHAP XAI</li><li>Kali Linux</li><li>Ubuntu</li><li>Snort</li>
-    <li>AWS</li><li>IBM Watsonx AI</li><li>OOP</li>
-  </ul>
-</section>
-
-<!-- 📂 Projects Section -->
-<section id="projects">
-  <h2>Projects</h2>
-
-  <div class="project">
-    <h3>🔒 FYP - Network Intrusion Detection System</h3>
-    <p>
-      Using cGANs, DNN, and SHAP XAI to detect DDoS, Brute Force, and SQL Injection attacks.
-    </p>
-    <a href="https://github.com/izzatty/FYP-NIDS" target="_blank">🔗 View on GitHub</a>
+<div [ngClass]="darkModeService.darkModeSignal()" @reveal>
+  <div class="bg-[#f7f2f2] polka dark:bg-black pt-20">
+    <!-- Header -->
+    <app-header />
+    <!-- Condent -->
+    <router-outlet></router-outlet>
+    <!-- Footer -->
+    <app-footer />
   </div>
-
-  <div class="project">
-    <h3>☁️ IBM Hackathon - SkyChaser</h3>
-    <p>
-      Developed a prototype AI-powered chatbot using IBM Watsonx,
-      enabling real-time fraud detection and seller verification for safer transactions.
-    </p>
-    <a href="https://izzatty.github.io/IBM_Hackathon" target="_blank">🔗 View Project</a>
-  </div>
-</section>
-
-<!-- 📞 Contact Section -->
-<section id="contact">
-  <h2>Contact Me</h2>
-  <p>
-    Feel free to reach out via
-    <a href="mailto:izzattysuaidii@gmail.com">email</a>,
-    connect on <a href="https://github.com/izzatty" target="_blank">GitHub</a>,
-    or message me on <a href="https://www.linkedin.com/in/izzattysuaidi" target="_blank">LinkedIn</a>.
-  </p>
-</section>
+</div>
