@@ -17,11 +17,10 @@ Built with **Angular** and powered by **Vercel** for lightning-fast deployment, 
 - Contact Section – Direct and easy ways to connect
 
 
-## Projects Showcase:
-
 ## 📂 Projects Highlight
-📌 Network Intrusion Detection System (FYP) – Detecting DDoS, Brute Force, and SQL Injection attacks using cGAN, DNN, and SHAP XAI
-📌 IBM Hackathon Project – AI-powered solution built with IBM Watsonx AI
+📌 **Network Intrusion Detection System (FYP)** – Detecting DDoS, Brute Force, and SQL Injection attacks using cGAN, DNN, and SHAP XAI
+
+📌 **IBM Hackathon Project** – AI-powered solution built with IBM Watsonx AI
 
 ## 🛠️ Tech Stack
 - **Framework:** Angular
