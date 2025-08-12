@@ -1,59 +1,41 @@
-# Portfolio
+# 🌐 Portfolio – Izzatty Suaidi
+Welcome to my **digital portfolio!** - a space where I blend creativity, technology, and curiosity.
+Here, you’ll get a snapshot of **who I am, what I’ve built, and where I’m heading.**
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.5.
+Built with **Angular** and powered by **Vercel** for lightning-fast deployment, this portfolio reflects my passion for **AI, Cybersecurity, and Web Development** through a clean, modern, and interactive design.
 
-## Development server
+## ✨ Features 
+Smooth & Responsive UI – Seamlessly adapts to any device
 
-To start a local development server, run:
+About Me – A quick insight into my background, skills, and interests
 
-```bash
-ng serve
-```
+Projects Showcase – Highlights of my work, from AI-driven systems to hackathon innovations
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Skills Hub – From programming languages to AI/ML frameworks and cybersecurity tools
 
-## Code scaffolding
+Contact Section – Direct and easy ways to connect
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Projects Showcase:
 
-```bash
-ng generate component component-name
-```
+📂 Projects Highlight
+📌 Network Intrusion Detection System (FYP) – Detecting DDoS, Brute Force, and SQL Injection attacks using cGAN, DNN, and SHAP XAI
+📌 IBM Hackathon Project – AI-powered solution built with IBM Watsonx AI
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🛠️ Tech Stack
+- ** Framework:** Angular
+- ** Languages:** HTML, CSS, TypeScript, JavaScript
+- ** Styling:** Tailwind CSS / Custom CSS
+- ** Deployment:** Vercel
 
-```bash
-ng generate --help
-```
+## 🚀 Live Demo 
+🔗 View My Portfolio Here
 
-## Building
+## 📬 Contact Me 
+Let’s connect and create something amazing together!
 
-To build the project run:
+💼 LinkedIn: www.linkedin.com/in/izzattysuaidi
+💻 GitHub: github.com/izzatty
+📧 Email: izzattysuaidii@gmail.com
 
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 💡 A Living Project
+This portfolio will continue to grow as I explore new skills, tackle bigger challenges, and contribute to exciting projects in AI, Cybersecurity, and Web Development.
