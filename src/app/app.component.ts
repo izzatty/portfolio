@@ -36,9 +36,6 @@ import { animate, style, transition, trigger } from '@angular/animations';
 })
 
 export class AppComponent implements OnInit {
-  title(title: any) {
-      throw new Error('Method not implemented.');
-  }
   constructor(private renderer: Renderer2, private el: ElementRef) { }
   ngOnInit(): void {
     initFlowbite();
